@@ -1,9 +1,10 @@
 # Tips-to-create-python-package
 How to create python package and link with pypi.org
-create "package" folder on Desktop
-create library folder "saylani-ai" in package folder (library folder can be in any name)  
-come to package folder again and create "setup.py" file
-write following code in "setup.py"
+
+1 - create "package" folder on Desktop
+2 -create library folder "saylani-ai" in package folder (library folder can be in any name)  
+3 - come to package folder again and create "setup.py" file
+4 - write following code in "setup.py"
 
 from setuptools import setup
 
@@ -15,8 +16,8 @@ author = "Any name / your name",
 packages = ["saylani-ai"],
 install_packages = []
 )
-come to library folder "saylani-ai" and create "init.py" file. (you can write any code in init.py file)
-run cmd from "package" folder and run following step by step
+5 - come to library folder "saylani-ai" and create "init.py" file. (you can write any code in init.py file)
+6 -  run cmd from "package" folder and run following step by step
 pip install wheel
 python setup.py bdist_wheel
 python setup.py sdist bdist_wheel
