@@ -15,7 +15,7 @@ setup(name = "saylani-ai",
 
 version = "0.1"
 
-description = "This is a Description"
+description = "This is a Package"
 
 long_description = "This is very very long description"
 
