@@ -31,11 +31,28 @@ install_packages = []
 
 6 -  Run cmd from "package" folder and run following step by step
 
-pip install wheel
+### pip install wheel
 
-python setup.py bdist_wheel
+### python setup.py bdist_wheel
 
-python setup.py sdist bdist_wheel
+### python setup.py sdist bdist_wheel
 
+7 - After runing all above there will be 2 folder created automatically in "package" folder
+
+8 - Run following command after every update in .py file
+
+### python setup.py sdist bdist_wheel
+
+### 9 -  Setup an account on https://pypi.org
+
+10 - For publishing the package on pypi.org run following command
+
+### pip install twine
+
+### twine upload dist/*
+
+Now Enter User Name and Pass of pypi account
+
+11 - Package has been uploaded
 
 
