@@ -50,9 +50,9 @@ install_packages = []
 ### pip install twine
 
 ### twine upload dist/*
-
+or 
+### python3 - m twine upload dist/*
 Now Enter User Name and Pass of pypi account
-
 11 - Package has been uploaded
 
 
